@@ -41,7 +41,7 @@ function setupSquares() {
             var clickedColor = this.style.backgroundColor;
     
             if(clickedColor===pickedColor){
-                message.textContent = "NOICCCEEEEE!!!!!!";
+                message.textContent = "Noice!";
                 changeColor(clickedColor);
                 h1.style.backgroundColor = clickedColor;
                 resetButton.textContent = "Play Again?";
