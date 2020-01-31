@@ -1,6 +1,6 @@
 // VARIABLES
 console.log("Connected!");
-var numSquares = 6;
+var numSquares = 9;
 var colors = [];
 var pickedColor;
 
@@ -27,7 +27,7 @@ function setupModeButtons() {
             modeButtons[1].classList.remove("selected");
             this.classList.add("selected");
     
-            this.textContent === "Easy" ? numSquares = 3: numSquares = 6;
+            this.textContent === "Easy" ? numSquares = 3: numSquares = 9;
             reset();
             
         });
