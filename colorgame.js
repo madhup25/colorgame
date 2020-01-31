@@ -1,5 +1,5 @@
 // VARIABLES
-
+console.log("Connected!")
 var numSquares = 6;
 var colors = [];
 var pickedColor;
